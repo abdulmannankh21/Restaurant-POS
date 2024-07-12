@@ -141,8 +141,10 @@ Future<List<int>> posInvoiceAndKotPrintLayout(
                           ? 8
                           : 4,
                   text: cTxt2 ?? '',
-                  styles: PosStyles(
+                  styles:
+                  PosStyles(
                     bold: isBold,
+                    height: PosTextSize.size1,
                   ),
                 ),
                 PosColumn(
